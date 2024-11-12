@@ -29,6 +29,7 @@ blogs = [
     "https://www.canva.dev/blog/engineering/",
     "https://blog.cloudera.com/",
     "https://engineering.atspotify.com/",
+    "https://openai.com/news/research/",
     "https://www.cockroachlabs.com/blog/",
     "https://engineering.coinbase.com/",
     "https://www.confluent.io/blog",
