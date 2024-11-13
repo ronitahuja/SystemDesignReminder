@@ -19,7 +19,6 @@ blogs = [
     "https://stripe.com/blog/engineering",
     "https://discord.com/category/engineering",
     "https://slack.engineering/",
-    "https://devblogs.microsoft.com/",
     "https://blog.asana.com/category/eng/",
     "https://developer.atlassian.com/blog/",
     "https://auth0.com/blog/",
