@@ -22,7 +22,7 @@ blogs = [
     "https://blog.asana.com/category/eng/",
     "https://developer.atlassian.com/blog/",
     "https://auth0.com/blog/",
-    "https://aws.amazon.com/blogs/aws/",
+    "https://aws.amazon.com/blogs/",
     "https://blog.x.com/engineering/en_us",
     "https://blog.booking.com/",
     "https://www.canva.dev/blog/engineering/",
