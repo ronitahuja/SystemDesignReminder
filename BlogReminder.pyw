@@ -47,6 +47,7 @@ blogs = [
     "https://grafana.com/blog/",
     "https://engineering.groupon.com/",
     "http://engineering.gusto.com/",
+    "https://www.edgeimpulse.com/blog/,
     "https://blog.heroku.com/engineering",
     "http://product.hubspot.com/blog/topic/engineering",
     "http://engineering.indeedblog.com/blog/",
