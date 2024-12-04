@@ -103,8 +103,8 @@ blogs = [
 ]
 
 def send_reminder():
-    current_day = datetime.now().day
-    blog_index = current_day % len(blogs)
+    current_day_of_year =  datetime.now().timetuple().tm_yday
+    blog_index = current_day_of_year % len(blogs)
     blog_url = blogs[blog_index]
 
     notification.notify(
