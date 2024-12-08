@@ -106,6 +106,7 @@ def send_reminder():
     current_day_of_year =  datetime.now().timetuple().tm_yday
     blog_index = current_day_of_year % len(blogs)
     blog_url = blogs[blog_index]
+    algo_url="https://github.com/ronitahuja/Algorithms"
 
     notification.notify(
         title="Blog Reminder",
@@ -114,6 +115,7 @@ def send_reminder():
     )
     
     webbrowser.open(blog_url)
+    webbrowser.open(algo_url)
     os._exit(0)
     
 send_reminder()
