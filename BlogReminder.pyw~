@@ -66,6 +66,7 @@ blogs = [
     "https://engblog.nextdoor.com/",
     "https://developer.okta.com/blog/",
     "https://www.paypal-engineering.com/",
+    "https://medium.com/Pinterest_Engineering",
     "https://blog.postman.com/",
     "https://www.etsy.com/codeascraft",
     "https://www.pubnub.com/blog/",
@@ -75,7 +76,6 @@ blogs = [
     "https://developers.redhat.com/blog/",
     "https://engineering.riotgames.com/",
     "https://eng.snap.com/blog",
-    "https://machinelearning.apple.com/research/",
     "https://www.databricks.com/blog/category/engineering",
     "https://shopify.engineering/",
     "https://corner.squareup.com/",
@@ -107,6 +107,7 @@ def send_reminder():
     current_day_of_year =  datetime.now().timetuple().tm_yday
     blog_index = current_day_of_year % len(blogs)
     blog_url = blogs[blog_index]
+    algo_url="https://github.com/ronitahuja/Algorithms"
 
     notification.notify(
         title="Blog Reminder",
@@ -115,6 +116,7 @@ def send_reminder():
     )
     
     webbrowser.open(blog_url)
+    webbrowser.open(algo_url)
     os._exit(0)
     
 send_reminder()
